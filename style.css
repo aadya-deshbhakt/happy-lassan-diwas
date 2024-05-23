@@ -1,0 +1,47 @@
+*{
+    height: fit-content;
+    font-family: cursive;
+}
+body{
+    height: 600px;
+    overflow: hidden;
+}
+.header{
+    background: #FC92E6;
+    font-size: 80px;
+    text-align: center;
+    border-radius: 25px;
+    position: relative;
+    bottom: 70px;
+}
+.container{
+    display: flex;
+}
+.coming_soon{
+    background: #FDD670;
+    font-size: 80px;
+    text-align: center;
+    width: 635px;
+    height: 555px;
+    border-radius: 25px;
+    position: relative;
+    bottom: 134px;
+}
+.text{
+    position: relative;
+    bottom: 35px;
+}
+.nischay_bhaiya{
+    width: 317px;
+    position: relative;
+    left: 15px;
+    bottom: 134px;
+    border-radius: 25px;
+}
+.nischay_bhaiya2{
+    width: 484px;
+    position: relative;
+    left: 30px;
+    bottom: 134px;
+    border-radius: 25px;
+}

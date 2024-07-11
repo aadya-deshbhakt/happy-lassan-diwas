@@ -1,0 +1,94 @@
+*{
+    font-family: cursive;
+}
+body
+
+.sidebar{
+    background-color: #FB8BE5;
+    border-radius: 25px;
+    width: 1033px;
+}
+.sidebar div{
+    display: flex;
+    position: relative;
+    left: 33px;
+    bottom: 3px;
+    font-size: 22px;
+}
+.Nisflix{
+    width: 134px;
+    position: relative;
+    top: 5px;
+}
+.home_text{
+    position: relative;
+    left: 44px;
+    top: 4px;
+}
+.fan_art_text{
+    position: relative;
+    left: 114px;
+    top: 4px;
+}
+.cartoon_text{
+    position: relative;
+    left: 180px;
+    top: 4px;
+}
+.edits_text{
+    position: relative;
+    left: 246px;
+    top: 4px;
+}
+.series_text{
+    position: relative;
+    left: 312px;
+    top: 4px;
+}
+.links_text{
+    position: relative;
+    left: 378px;
+    top: 4px;
+}
+
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+
+#video-background{
+    width: 1033px;
+    border-radius: 25px;
+    position: relative;
+    top: 11px;
+    left: 0px;
+}
+.watch_button{
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    bottom: 55px;
+    right: 1000px;
+    font-size: 33px;
+    border-color: black;
+    width: 303px;
+    height: 66px;
+}
+
+.upcoming{
+    position: relative;
+    bottom: 727px;
+    left: 1045px;
+    background: rgb(255, 216, 87);
+    border-radius: 25px;
+    width: 444px;
+    height: 82px;
+    text-align: center;
+}
+.upcoming_episodes{
+    font-size: 44px;
+    position: relative;
+    top: 6px;
+}

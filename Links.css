@@ -1,0 +1,600 @@
+*{
+    font-family: cursive;
+}
+body{
+    width: 1422px;
+    height: fit-content;
+    overflow: hidden;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: #000000;
+}
+.header{
+    background: #45B5FF;
+    height: 100px;
+    width: 94%;
+    position: relative;
+    left: 161px;
+    border-radius: 25px;
+    display: flex;
+}
+.heading{
+    font-family: cursive;
+    font-size: 50px;
+    position: relative;
+    left: 334px;
+    bottom: 38px;
+}
+
+.sidebar{
+    background: #fcde8d;
+    width: 147px;
+    height: 695px;
+    position: fixed;
+    top: 8px;
+    border-radius: 25px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.shortcut_links{
+    position: relative;
+    left: 6px;
+    bottom: 2px;
+}
+.home_icon{
+    position: relative;
+    left: 30px;
+    width: 75px;
+}
+.home_text{
+    font-size: 134%;
+    position: relative;
+    bottom: 32px;
+    left: 38px;
+    font-family: cursive;
+}
+.fan_art{
+    position: relative;
+    left: 30px;
+    bottom: 44px;
+    width: 75px;
+}
+.fan_art_text{
+    font-size: 134%;
+    position: relative;
+    bottom: 68px;
+    left: 28px;
+    font-family: cursive;
+}
+.cartoon_art{
+    position: relative;
+    left: 30px;
+    bottom: 75px;
+    width: 75px;
+}
+.cartoon_text{
+    font-size: 134%;
+    position: relative;
+    bottom: 105px;
+    left: 28px;
+    font-family: cursive;
+}
+.edits{
+    position: relative;
+    left: 32px;
+    bottom: 117px;
+    width: 75px;
+}
+.edits_text{
+    font-size: 134%;
+    position: relative;
+    bottom: 147px;
+    left: 35px;
+    font-family: cursive;
+}
+.series{
+    position: relative;
+    left: 42px;
+    bottom: 154px;
+    width: 50px;
+}
+.series_text{
+    font-size: 134%;
+    position: relative;
+    bottom: 177px;
+    left: 34px;
+    font-family: cursive;
+}
+.links{
+    position: relative;
+    left: 36px;
+    bottom: 184px;
+    width: 64px;
+}
+.links_text{
+    font-size: 134%;
+    position: relative;
+    bottom: 209px;
+    left: 42px;
+    font-family: cursive;
+}
+.sidebar a:visited{
+    color: #45B5FF;
+}
+
+.credits_section{
+    position: relative;
+    top: 14px;
+    left: 161px;
+}
+.thank_you{
+    position: relative;
+    bottom: 0px;
+    border-radius: 25px;
+    background-color: #45B5FF;
+    font-size: 22px;
+    width: 68%;
+    text-align: left;
+}
+.request{
+    position: relative;
+    left: 16px;
+    bottom: 3px;
+}
+.harmony{
+    border-radius: 25px;
+    display: flex;
+    font-size: 20px;
+    width: 350px;
+    height: 140px;
+    background-color: #fcde8d;
+    position: relative;
+    left: 980px;
+    bottom: 140px;
+}
+.harmony a{
+    width: 350px;
+    height: 140px;
+}
+.harmony_logo{
+    width: 134px;
+    position: relative;
+    right: 110px;
+}
+.harmony_link{
+    position: relative;
+    bottom: 110px;
+    left: 64px;
+    right: 20px;
+    width: 300px;
+    margin-right: -20px;
+}
+.web_development{
+    border-radius: 25px;
+    position: relative;
+    bottom: 126px;
+    left: 0px;
+    font-size: 22px;
+    width: 275px;
+    height: 303px;
+    background-color: #45B5FF;
+}
+.web_development a{
+    position: relative;
+    bottom: 25px;
+}
+.dev_head{
+    position: relative;
+    top: 11px;
+}
+.my_pfp{
+    width: 200px;
+    border-radius: 100px;
+    position: relative;
+    left: 11px;
+    top: 1px;
+}
+.insta_icon{
+    width: 25px;
+    position: relative;
+    right: 215px;
+    top: 35px;
+}
+.aadya_loves_nonu_bhaiya{
+    font-size: 17px;
+    position: relative;
+    bottom: 13px;
+    left: 12px;
+}
+.vectors{
+    border-radius: 25px;
+    position: relative;
+    bottom: 342px;
+    left: 8px;
+    font-size: 22px;
+    width: 254px;
+    height: 303px;
+    background-color: #45B5FF;
+}
+.vector_credits{
+    position: relative;
+    bottom: 11px;
+}
+.vector_credits_list{
+    display: flex;
+    position: relative;
+    top: 55px;
+    right: 15px;
+    width: 275px;
+    height: 303px;
+}
+.vectors a{
+    width: 0px;
+    height: 0px;
+}
+.insta_icon2{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    bottom: 77px;
+}
+.for_nischaymalhan{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    bottom: 126px;
+}
+.insta_icon3{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    bottom: 44px;
+}
+.triggered_lavisha{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    bottom: 93px;
+}
+.insta_icon4{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    bottom: 11px;
+}
+.triggered__shivangi{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    bottom: 60px;
+}
+.insta_icon5{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 22px;
+}
+.triggered_kashvee{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    bottom: 27px;
+}
+.insta_icon6{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 55px;
+}
+.preschay_love{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    top: 6px;
+}
+.insta_icon7{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 88px;
+}
+.nexus_abhischay{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    top: 39px;
+}
+.insta_icon8{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 121px;
+}
+.triggered_samaira07{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    top: 72px;
+}
+
+.cartoons{
+    border-radius: 25px;
+    position: relative;
+    bottom: 342px;
+    left: 16px;
+    font-size: 22px;
+    width: 254px;
+    height: 303px;
+    background-color: #45B5FF;
+}
+.cartoon_credits{
+    position: relative;
+    bottom: 11px;
+}
+.cartoon_credits_list{
+    display: flex;
+    position: relative;
+    top: 55px;
+    right: 15px;
+    width: 275px;
+    height: 303px;
+}
+
+.cartoons a{
+    width: 0px;
+    height: 0px;
+}
+.insta_icon9{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    bottom: 77px;
+}
+.aadya_deshbhakt{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    bottom: 126px;
+}
+.insta_icon10{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    bottom: 44px;
+}
+.edits_for_fav03{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    bottom: 93px;
+}
+.insta_icon11{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    bottom: 11px;
+    border-radius: 25px;
+}
+.triggered_kashvee2{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    bottom: 60px;
+}
+.insta_icon12{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 22px;
+}
+.triggered_samaira2{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    bottom: 27px;
+}
+.insta_icon13{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 55px;
+}
+.nischayxblessed{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    top: 6px;
+}
+.insta_icon14{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 88px;
+}
+.coffee_center_of_nischay{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    top: 39px;
+    width: 134px;
+    margin-right: -20px;
+}
+.insta_icon15{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 121px;
+}
+.triggered_anushkaa{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    top: 72px;
+}
+.videos{
+    border-radius: 25px;
+    position: relative;
+    bottom: 348px;
+    left: 24px;
+    font-size: 20px;
+    width: 254px;
+    height: 303px;
+    background-color: #45B5FF;
+}
+.video_credits{
+    position: relative;
+    bottom: 11px;
+}
+.video_credits_list{
+    display: flex;
+    position: relative;
+    top: 58px;
+    right: 15px;
+    width: 275px;
+    height: 303px;
+}
+
+.videos a{
+    width: 0px;
+    height: 0px;
+}
+.insta_icon16{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    bottom: 80px;
+}
+.nischay_kenkyo{
+    font-size: 16.5px;
+    position: relative;
+    left: 60px;
+    bottom: 126px;
+}
+.insta_icon17{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    bottom: 50px;
+}
+.nischay_paradise{
+    font-size: 16.5px;
+    position: relative;
+    left: 60px;
+    bottom: 96px;
+}
+.insta_icon18{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    bottom: 20px;
+}
+.triggered_mub{
+    font-size: 16.5px;
+    position: relative;
+    left: 60px;
+    bottom: 66px;
+}
+.insta_icon19{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 10px;
+}
+.adoring_someone{
+    font-size: 16.5px;
+    position: relative;
+    left: 60px;
+    bottom: 36px;
+}
+.insta_icon20{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 40px;
+}
+.triggered_insaan_08{
+    font-size: 16.5px;
+    position: relative;
+    left: 60px;
+    bottom: 6px;
+}
+.insta_icon21{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 70px;
+}
+.triggered_shravya{
+    font-size: 16.5px;
+    position: relative;
+    left: 60px;
+    top: 24px;
+    width: 134px;
+    margin-right: -20px;
+}
+.insta_icon22{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 100px;
+}
+.stanning_malhans{
+    font-size: 16.5px;
+    position: relative;
+    left: 60px;
+    top: 53px;
+}
+.insta_icon23{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 130px;
+}
+.triggeredxsmritii{
+    font-size: 16.5px;
+    position: relative;
+    left: 60px;
+    top: 83px;
+}
+.haggu_mention{
+    border-radius: 25px;
+    position: relative;
+    bottom: 141px;
+    left: 32px;
+    font-size: 22px;
+    width: 244px;
+    height: 303px;
+    background-color: #45B5FF;
+    overflow: hidden;
+}
+.haggu_mention a{
+    height: 303px;
+    margin-bottom: -100px;
+}
+.justis_head{
+    position: relative;
+    bottom: 14px;
+}
+.haggu_pfp{
+    width: 200px;
+    border-radius: 100px;
+    position: relative;
+    left: 0px;
+    bottom: 22px;
+}
+.insta_icon24{
+    width: 25px;
+    position: relative;
+    right: 58px;
+    bottom: 22px;
+}
+.pyaarahaggu{
+    font-size: 17px;
+    position: relative;
+    bottom: 70px;
+    left: 12px;
+}

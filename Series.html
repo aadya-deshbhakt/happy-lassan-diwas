@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nisflix Animated Series</title>
+    <link rel="stylesheet" href="Series.css">
+    <script>
+        function playPause(btn, vid){
+            var vid = document.getElementById(vid);
+            if(vid.paused){
+                vid.play();
+                btn.innerHTML = "⏸️ Pause Trailer";
+            }
+            else{
+                vid.pause();
+                btn.innerHTML = "▶ Watch Trailer";
+            }
+        }
+    </script>
+</head>
+<body bgcolor="#45B5FF">
+    <div class="sidebar">
+        <div class="shortcut_links">
+            <a href="Series.html"><img src="Images (Lassan)/Nisflix 3.png" class="Nisflix"></a>
+            <a href="index.html"><p class="home_text"><b>Home</b></p></a>
+            <a href="Fan Art.html"><p class="fan_art_text"><b>Fan Art</b></p></a>
+            <a href="Cartoon Arts.html"><p class="cartoon_text"><b>Cartoons</b></p></a>
+            <a href="Videos.html"><p class="edits_text"><b>Videos</b></p></a>
+            <a href="Series.html"><p class="series_text"><b>Series</b></p></a>
+            <a href="Links.html"><p class="links_text"><b>Links</b></p></a>
+        </div>
+    </div>
+    <video loop id="video-background">
+        <source src="Series/Trailer.mp4" type="video/mp4">
+    </video>
+    <button class="watch_button" onclick="playPause(this, 'video-background')"> ▶ Watch Trailer </button>
+    <div class="upcoming"><p class="upcoming_episodes"><b>Upcoming Episodes</b></p></div>
+</body>
+</html>

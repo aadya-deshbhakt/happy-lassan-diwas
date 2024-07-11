@@ -1,0 +1,386 @@
+*{
+    height: fit-content;
+    font-family: cursive;
+}
+
+body{
+    overflow-x: hidden;
+    height: 888px;
+}
+.page{
+    background: #FB8BE5;
+}
+.header{
+    background: #45B5FF;
+    height: 100px;
+    width: 99.4%;
+    position: relative;
+    border-radius: 25px;
+    display: flex;
+}
+.fanart_heading{
+    font-family: cursive;
+    font-size: 50px;
+    position: relative;
+    left: 195px;
+    bottom: 38px;
+}
+.heart_hands{
+    width: 50px;
+    position: relative;
+    top: 11px;
+}
+.subheading{
+    position: relative;
+    left: 505px;
+    bottom: 22px;
+    background: #45B5FF;
+    border-radius: 25px;
+    font-size: 34px;
+    width: 17%;
+    text-align: center;
+}
+.subheading_text{
+    position: relative;
+    right: 2px;
+    bottom: 1px;
+}
+
+
+.sidebar{
+    background: #fcde8d;
+    width: 147px;
+    height: 695px;
+    position: fixed;
+    top: 8px;
+    border-radius: 25px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.shortcut_links{
+    position: relative;
+    top: 0px;
+    left: 6px;
+}
+.home_icon{
+    position: relative;
+    left: 30px;
+    width: 75px;
+}
+.home_text{
+    font-size: 134%;
+    position: relative;
+    bottom: 32px;
+    left: 38px;
+    font-family: cursive;
+}
+.fan_art{
+    position: relative;
+    left: 30px;
+    bottom: 44px;
+    width: 75px;
+}
+.fan_art_text{
+    font-size: 134%;
+    position: relative;
+    bottom: 68px;
+    left: 28px;
+    font-family: cursive;
+}
+.cartoon_art{
+    position: relative;
+    left: 30px;
+    bottom: 75px;
+    width: 75px;
+}
+.cartoon_text{
+    font-size: 134%;
+    position: relative;
+    bottom: 105px;
+    left: 28px;
+    font-family: cursive;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: #45B5FF;
+}
+.edits{
+    position: relative;
+    left: 32px;
+    bottom: 117px;
+    width: 75px;
+}
+.edits_text{
+    font-size: 134%;
+    position: relative;
+    bottom: 147px;
+    left: 35px;
+    font-family: cursive;
+}
+.series{
+    position: relative;
+    left: 42px;
+    bottom: 154px;
+    width: 50px;
+}
+.series_text{
+    font-size: 134%;
+    position: relative;
+    bottom: 177px;
+    left: 34px;
+    font-family: cursive;
+}
+.links{
+    position: relative;
+    left: 36px;
+    bottom: 184px;
+    width: 64px;
+}
+.links_text{
+    font-size: 134%;
+    position: relative;
+    bottom: 209px;
+    left: 42px;
+    font-family: cursive;
+}
+
+.main_container{
+    position: absolute;
+    width: 88%;
+    position: relative;
+    left: 161px;
+}
+.main_fanart_container{
+    position: relative;
+    top: 55px;
+}
+
+.fanart_container{
+    display: flex;
+    position: relative;
+    bottom: 44px;
+}
+.IMG_ByManognaDidi{
+    width: 23.8%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.IMG_ByLavisha{
+    width: 19.75%;
+    border-radius: 25px;
+    position: relative;
+    left: 11px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.IMG_ByShivangi{
+    width: 22.1%;
+    border-radius: 25px;
+    position: relative;
+    left: 22px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.IMG_ByKashvee{
+    width: 30.8%;
+    position: relative;
+    left: 33px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.art_credits{
+    display: flex;
+    position: relative;
+    bottom: 34px;
+    width: 888px;
+}
+.for_nischaymalhan{
+    position: relative;
+    left: 1px;
+    background: #55BBFF;
+    border-radius: 25px;
+    width: 222px;
+    height: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.p_for_nischaymalhan{
+    position: relative;
+    right: 4px;
+    bottom: 11px;
+    font-size: 22px;
+    text-align: center;
+}
+.triggered_lavisha{
+    position: relative;
+    left: 101px;
+    background: #55BBFF;
+    border-radius: 25px;
+    width: 222px;
+    height: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.p_triggered_lavisha{
+    position: relative;
+    right: 4px;
+    bottom: 11px;
+    font-size: 22px;
+    text-align: center;
+}
+.triggered__shivangi{
+    position: relative;
+    left: 148px;
+    background: #55BBFF;
+    border-radius: 25px;
+    width: 222px;
+    height: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.p_triggered__shivangi{
+    position: relative;
+    right: 4px;
+    bottom: 11px;
+    font-size: 22px;
+    text-align: center;
+}
+.triggered_kashvee{
+    position: relative;
+    left: 228px;
+    background: #55BBFF;
+    border-radius: 25px;
+    width: 222px;
+    height: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.p_triggered_kashvee{
+    position: relative;
+    right: 4px;
+    bottom: 11px;
+    font-size: 22px;
+    text-align: center;
+}
+.fanart_container2{
+    position: relative;
+    bottom: 25px;
+}
+.IMG_BySrushti{
+    width: 23.8%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.IMG_ByAadya{
+    width: 19.75%;
+    border-radius: 25px;
+    position: relative;
+    left: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.IMG_ByVartika{
+    width: 22.1%;
+    border-radius: 25px;
+    position: relative;
+    left: 11px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.IMG_BySamaira{
+    width: 30.8%;
+    position: relative;
+    left: 16px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.art_credits2{
+    display: flex;
+    position: relative;
+    bottom: 13px;
+    width: 888px;
+}
+.preschay_love{
+    position: relative;
+    top: 18px;
+    background: #55BBFF;
+    border-radius: 25px;
+    width: 222px;
+    height: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.p_preschay_love{
+    position: relative;
+    right: 4px;
+    bottom: 11px;
+    font-size: 22px;
+    text-align: center;
+}
+.aadya_loves_nonu_bhaiya{
+    position: relative;
+    top: 18px;
+    left: 99px;
+    background: #55BBFF;
+    border-radius: 25px;
+    width: 222px;
+    height: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.p_aadya_loves_nonu_bhaiya{
+    position: relative;
+    right: 4px;
+    bottom: 11px;
+    font-size: 22px;
+    text-align: center;
+}
+.nexus_abhischay{
+    position: relative;
+    top: 18px;
+    left: 148px;
+    background: #55BBFF;
+    border-radius: 25px;
+    width: 222px;
+    height: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.p_nexus_abhischay{
+    position: relative;
+    right: 4px;
+    bottom: 11px;
+    font-size: 22px;
+    text-align: center;
+}
+.triggered_samaira07{
+    position: relative;
+    top: 18px;
+    left: 228px;
+    background: #55BBFF;
+    border-radius: 25px;
+    width: 222px;
+    height: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.p_triggered_samaira07{
+    position: relative;
+    right: 4px;
+    bottom: 11px;
+    font-size: 22px;
+    text-align: center;
+}
+.container3{
+    position: relative;
+    bottom: 11px;
+}
+.subheading2{
+    position: relative;
+    left: 534px;
+    bottom: 33px;
+    background: #45B5FF;
+    border-radius: 25px;
+    font-size: 34px;
+    width: 22.8%;
+    text-align: center;
+}
+.subheading2_text{
+    position: relative;
+    bottom: 2px;
+}
+.fanart_container3{
+    position: relative;
+    bottom: 55px;
+}

@@ -15,6 +15,7 @@ let velocityX = 0;
 let velocityY = 0;
 
 //platform
+let platform;
 let platformArray = [];
 let platformWidth = 200;
 let platformHeight = 200;

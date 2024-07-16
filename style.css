@@ -51,6 +51,9 @@ body{
 .website_author{
     display: none;
 }
+.website_author{
+    position: relative;
+}
 a:link{
     color: #45B5FF;
 }

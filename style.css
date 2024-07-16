@@ -25,12 +25,12 @@ body{
     height: 555px;
     border-radius: 25px;
     position: relative;
-    bottom: 147px;
+    bottom: 134px;
     left 75px
 }
 .text{
     position: relative;
-    bottom: 50px;
+    bottom: 60px;
 }
 .nischay_bhaiya{
     width: 317px;
@@ -55,7 +55,7 @@ body{
 .website_author_pc{
     position: relative;
     font-size: 34px;
-    bottom: 126px;
+    bottom: 134px;
 }
 a:link{
     color: #45B5FF;

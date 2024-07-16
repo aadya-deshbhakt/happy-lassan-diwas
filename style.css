@@ -120,4 +120,7 @@ a:visited{
         position: relative;
         top: 9px;
     }
+    .website_author_pc{
+        display: none;
+    }
 }

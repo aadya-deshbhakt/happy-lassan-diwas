@@ -19,13 +19,14 @@ body{
 }
 .coming_soon{
     background: #FDD670;
-    font-size: 70px;
+    font-size: 64px;
     text-align: center;
-    width: 635px;
+    width: 555px;
     height: 555px;
     border-radius: 25px;
     position: relative;
-    bottom: 134px;
+    bottom: 147px;
+    left 75px
 }
 .text{
     position: relative;
@@ -54,7 +55,7 @@ body{
 .website_author_pc{
     position: relative;
     font-size: 34px;
-    bottom: 115px;
+    bottom: 126px;
 }
 a:link{
     color: #45B5FF;

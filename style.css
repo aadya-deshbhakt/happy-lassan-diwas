@@ -88,12 +88,12 @@ a:visited{
         height: 270px;
         position: relative;
         bottom: 64px;
-        right: 80px;
+        left: 0px;
         font-size: 38px;
     }
     .text{
         position: relative;
-        top: 44px;
+        top: 22px;
     }
     .nischay_bhaiya{
         display: none;

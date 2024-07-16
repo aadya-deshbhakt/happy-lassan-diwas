@@ -19,7 +19,7 @@ body{
 }
 .coming_soon{
     background: #FDD670;
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
     width: 635px;
     height: 555px;
@@ -29,7 +29,7 @@ body{
 }
 .text{
     position: relative;
-    bottom: 35px;
+    bottom: 50px;
 }
 .nischay_bhaiya{
     width: 317px;
@@ -54,6 +54,7 @@ body{
 .website_author_pc{
     position: relative;
     font-size: 34px;
+    bottom: 115px;
 }
 a:link{
     color: #45B5FF;

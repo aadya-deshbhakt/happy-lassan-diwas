@@ -84,8 +84,8 @@ a:visited{
         display: inline;
     }
     .coming_soon{
-        width: 99.48%;
-        height: 270px;
+        width: 82.5%;
+        height: 264px;
         position: relative;
         bottom: 64px;
         left: 0px;
@@ -104,7 +104,7 @@ a:visited{
     .alternate_img{
         display: block;
         border-radius: 25px;
-        width: 99.48%;
+        width: 82.5%;
         position: relative;
         bottom: 53px;
     }
@@ -117,6 +117,7 @@ a:visited{
         text-align: center;
         font-size: 18px;
         height: 44px;
+        width: 82.5%;
     }
     .username{
         position: relative;

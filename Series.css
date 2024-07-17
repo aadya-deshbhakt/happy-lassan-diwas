@@ -8,7 +8,7 @@ body{
 .sidebar{
     background-color: #FB8BE5;
     border-radius: 25px;
-    width: 1033px;
+    width: 105px;
 }
 .sidebar div{
     display: flex;
@@ -138,6 +138,9 @@ a:visited{
 }
 
 @media only screen and (max-width: 576px){
+    *{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
     html, body{
         height: 616px;
     }

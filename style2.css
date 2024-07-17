@@ -231,3 +231,70 @@ a:visited{
     position: relative;
     bottom: 40px;
 }
+.mobile{
+    display: none;
+}
+@media only screen and (max-width: 576px){
+    body{
+        height: 616px;
+    }
+    .container{
+        position: relative;
+        bottom: 132px;
+    }
+    .header{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .Hindi_Wish{
+        display: none;
+    }
+    .about_website{
+        display: none;
+    }
+    .Lassans_Love_You{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        position: relative;
+        bottom: 132px;
+    }
+    .mobile_header{
+        font-size: 33px;
+        background-color: #FFDC7B;
+        border-radius: 25px;
+        width: 99%;
+        position: relative;
+        bottom: 0px;
+    }
+    .mobile_heading{
+        position: relative;
+        left: 33px;
+    }
+    .mobile_info{
+        display: block;
+        border-radius: 25px;
+        font-size: 22px;
+        background-color: #FB8BE5;
+        width: 99%;
+        position: relative;
+        bottom: 22px;
+    }
+    .mobile_info_text{
+        position: relative;
+        left: 22px;
+        width: 88%;
+    }
+    .alternate_img{
+        width: 380px;
+        position: relative;
+        bottom: 11px;
+        border-radius: 25px;
+    }
+}

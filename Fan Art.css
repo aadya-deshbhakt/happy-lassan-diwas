@@ -46,7 +46,6 @@ body{
     bottom: 1px;
 }
 
-
 .sidebar{
     background: #fcde8d;
     width: 147px;
@@ -383,6 +382,9 @@ a:visited{
 .fanart_container3{
     position: relative;
     bottom: 55px;
+}
+.mobile{
+    display: none;
 }
 
 @media only screen and (max-width: 576px){

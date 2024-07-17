@@ -32,7 +32,7 @@ a:visited{
 .sidebar{
     background: #fcde8d;
     width: 147px;
-    height: 717px;
+    height: 695px;
     position: fixed;
     top: 8px;
     border-radius: 25px;
@@ -145,7 +145,7 @@ a:visited{
     left: 16px;
     bottom: 3px;
 }
-.harmony{
+.series_editors{
     border-radius: 25px;
     display: flex;
     font-size: 20px;
@@ -156,9 +156,51 @@ a:visited{
     left: 980px;
     bottom: 140px;
 }
-.harmony a{
+.series_editors a{
     width: 350px;
     height: 140px;
+}
+.series_editors_credits{
+    font-size: 22px;
+    position: relative;
+    left: 11px;
+    bottom: 17px;
+}
+.soulfulxeditz{
+    font-size: 17px;
+    position: relative;
+    right: 115px;
+    bottom: 8px;
+}
+.insta_icon25{
+    width: 25px;
+    position: relative;
+    right: 144px;
+    top: 40px;
+}
+.nischayxgracious{
+    font-size: 17px;
+    position: relative;
+    right: 115px;
+    top: 24px;
+}
+.insta_icon26{
+    width: 25px;
+    position: relative;
+    right: 144px;
+    top: 72px;
+}
+.nischay_krishna{
+    font-size: 17px;
+    position: relative;
+    right: 115px;
+    top: 56px;
+}
+.insta_icon27{
+    width: 25px;
+    position: relative;
+    right: 144px;
+    top: 104px;
 }
 .harmony_logo{
     width: 134px;
@@ -597,4 +639,118 @@ a:visited{
     position: relative;
     bottom: 70px;
     left: 12px;
+}
+.cartoons{
+    border-radius: 25px;
+    position: relative;
+    bottom: 342px;
+    left: 16px;
+    font-size: 22px;
+    width: 254px;
+    height: 303px;
+    background-color: #45B5FF;
+}
+.cartoon_credits{
+    position: relative;
+    bottom: 11px;
+}
+.cartoon_credits_list{
+    display: flex;
+    position: relative;
+    top: 55px;
+    right: 15px;
+    width: 275px;
+    height: 303px;
+}
+
+.series_editors a{
+    width: 0px;
+    height: 0px;
+}
+.insta_icon9{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    bottom: 77px;
+}
+.aadya_deshbhakt{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    bottom: 126px;
+}
+.insta_icon10{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    bottom: 44px;
+}
+.edits_for_fav03{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    bottom: 93px;
+}
+.insta_icon11{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    bottom: 11px;
+    border-radius: 25px;
+}
+.triggered_kashvee2{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    bottom: 60px;
+}
+.insta_icon12{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 22px;
+}
+.triggered_samaira2{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    bottom: 27px;
+}
+.insta_icon13{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 55px;
+}
+.nischayxblessed{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    top: 6px;
+}
+.insta_icon14{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 88px;
+}
+.coffee_center_of_nischay{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    top: 39px;
+    width: 134px;
+    margin-right: -20px;
+}
+.insta_icon15{
+    width: 25px;
+    position: relative;
+    left: 32px;
+    top: 121px;
+}
+.triggered_anushkaa{
+    font-size: 17px;
+    position: relative;
+    left: 60px;
+    top: 72px;
 }

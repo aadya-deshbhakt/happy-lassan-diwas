@@ -1,7 +1,9 @@
 *{
     font-family: cursive;
 }
-body
+body{
+    overflow: hidden;
+}
 
 .sidebar{
     background-color: #FB8BE5;
@@ -77,18 +79,113 @@ a:visited{
     height: 66px;
 }
 
-.upcoming{
+.series_description{
     position: relative;
     bottom: 727px;
     left: 1045px;
     background: rgb(255, 216, 87);
     border-radius: 25px;
-    width: 444px;
+    width: 464px;
     height: 82px;
     text-align: center;
 }
-.upcoming_episodes{
+.series_description_heading{
     font-size: 44px;
     position: relative;
     top: 6px;
+}
+.description_content{
+    position: relative;
+    bottom: 717px;
+    font-size: 22px;
+    width: 464px;
+    height: 55%;
+    background-color: #FB8BE5;
+    border-radius: 25px;
+    position: relative;
+    left: 1045px;
+    text-align: left;
+}
+.description_content_text{
+    width: 88%;
+    position: relative;
+    left: 22px;
+}
+.upcoming{
+    position: relative;
+    bottom: 706px;
+    left: 1045px;
+    background: rgb(255, 216, 87);
+    border-radius: 25px;
+    width: 464px;
+    height: 154px;
+    text-align: center;
+}
+.upcoming_episodes{
+    font-size: 22px;
+    position: relative;
+    left: 8px;
+    bottom: 11px;
+    text-align: left;
+}
+.with_love_from{
+    position: relative;
+    bottom: 520px;
+}
+
+.mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 576px){
+    html, body{
+        height: 616px;
+    }
+    .container{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        position: relative;
+        bottom: 154px;
+        right: 0px;
+    }
+    .mobile_header{
+        font-size: 33px;
+        background-color: #FFDC7B;
+        border-radius: 25px;
+        width: 382px;
+        position: relative;
+        bottom: 0px;
+    }
+    .mobile_heading{
+        position: relative;
+        left: 33px;
+    }
+    .mobile_info{
+        display: block;
+        border-radius: 25px;
+        font-size: 22px;
+        background-color: #FB8BE5;
+        width: 382px;
+        position: relative;
+        bottom: 22px;
+    }
+    .mobile_info_text{
+        position: relative;
+        left: 22px;
+        width: 88%;
+    }
+    .alternate_img{
+        width: 382px;
+        position: relative;
+        bottom: 11px;
+        border-radius: 25px;
+    }
 }

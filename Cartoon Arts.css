@@ -316,6 +316,9 @@ a:visited{
 }
 
 @media only screen and (max-width: 576px){
+    *{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
     html, body{
         height: 616px;
         overflow: hidden;

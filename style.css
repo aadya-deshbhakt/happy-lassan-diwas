@@ -21,7 +21,7 @@ body{
     background: #FDD670;
     font-size: 64px;
     text-align: center;
-    width: 555px;
+    width: 611px;
     height: 555px;
     border-radius: 25px;
     position: relative;
@@ -55,7 +55,7 @@ body{
 .website_author_pc{
     position: relative;
     font-size: 34px;
-    bottom: 134px;
+    bottom: 84px;
 }
 a:link{
     color: #45B5FF;

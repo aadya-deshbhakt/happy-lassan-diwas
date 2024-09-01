@@ -142,19 +142,19 @@ a:visited{
 }
 .request{
     position: relative;
-    left: 10px;
+    left: 11px;
     bottom: 3px;
 }
 .series_editors{
     border-radius: 25px;
     display: flex;
     font-size: 20px;
-    width: 350px;
+    width: 216px;
     height: 140px;
-    background-color: #fcde8d;
+    background-color: #45B5FF;
     position: relative;
-    left: 980px;
-    bottom: 140px;
+    left: 1120px;
+    bottom: 280px;
 }
 .series_editors a{
     width: 350px;
@@ -164,48 +164,67 @@ a:visited{
     font-size: 22px;
     position: relative;
     left: 11px;
-    bottom: 17px;
+    bottom: 20px;
 }
 .soulfulxeditz{
     font-size: 17px;
     position: relative;
     right: 115px;
-    bottom: 8px;
+    bottom: 11px;
 }
 .insta_icon25{
     width: 25px;
     position: relative;
     right: 144px;
-    top: 40px;
+    top: 37px;
 }
 .nischayxgracious{
     font-size: 17px;
     position: relative;
     right: 115px;
-    top: 24px;
+    top: 21px;
 }
 .insta_icon26{
     width: 25px;
     position: relative;
     right: 144px;
-    top: 72px;
+    top: 69px;
 }
 .nischay_krishna{
     font-size: 17px;
     position: relative;
     right: 115px;
-    top: 56px;
+    top: 53px;
 }
 .insta_icon27{
     width: 25px;
     position: relative;
     right: 144px;
-    top: 104px;
+    top: 101px;
+}
+.harmony_server{
+    border-radius: 25px;
+    display: flex;
+    font-size: 20px;
+    width: 128px;
+    height: 140px;
+    background-color: #fcde8d;
+    position: relative;
+    left: 980px;
+    bottom: 140px;
 }
 .harmony_logo{
     width: 134px;
     position: relative;
-    right: 110px;
+    right: 44px;
+    bottom: 33px;
+}
+.harmony_server a{
+    width: 0px;
+    height: 0px;
+    position: relative;
+    top: 33px;
+    left: 33px;
 }
 .harmony_link{
     position: relative;
@@ -214,6 +233,10 @@ a:visited{
     right: 20px;
     width: 300px;
     margin-right: -20px;
+}
+.main_credits{
+    position: relative;
+    bottom: 140px;
 }
 .web_development{
     border-radius: 25px;

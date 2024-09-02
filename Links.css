@@ -133,17 +133,43 @@ a:visited{
 }
 .thank_you{
     position: relative;
-    bottom: 0px;
+    bottom: 1px;
     border-radius: 25px;
     background-color: #45B5FF;
-    font-size: 22px;
+    font-size: 20px;
     width: 68%;
+    height: 242px;
     text-align: left;
 }
 .request{
     position: relative;
+    left: 18px;
+}
+.sll{
+    position: relative;
+    left: 18px;
+    bottom: 22px;
+}
+.last_line{
+    position: relative;
+    left: 18px;
+    bottom: 130px;
+}
+.emoji{
+    width: 34px;
+    position: relative;
+    bottom: 72px;
+    left: 151px;
+}
+.dands{
+    position: relative;
+    bottom: 278px;
     left: 11px;
-    bottom: 3px;
+    height: 86px;
+    width: 355px;
+    border-radius: 25px;
+    background-color: #45B5FF;
+    font-size: 18px;
 }
 .series_editors{
     border-radius: 25px;
@@ -154,7 +180,7 @@ a:visited{
     background-color: #45B5FF;
     position: relative;
     left: 1120px;
-    bottom: 280px;
+    bottom: 406px;
 }
 .series_editors a{
     width: 350px;
@@ -211,7 +237,7 @@ a:visited{
     background-color: #fcde8d;
     position: relative;
     left: 980px;
-    bottom: 140px;
+    bottom: 264px;
 }
 .harmony_logo{
     width: 134px;
@@ -236,7 +262,7 @@ a:visited{
 }
 .main_credits{
     position: relative;
-    bottom: 140px;
+    bottom: 264px;
 }
 .web_development{
     border-radius: 25px;

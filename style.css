@@ -1,16 +1,25 @@
 *{
     height: fit-content;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/*body{
+    overflow: hidden;
+}*/
+a{
+    color: #000000;
+}
+
 .header{
     background: #FFDC7B;
     height: 100px;
     border-radius: 25px;
+    position: fixed;
+    width: 99%;
+    display: flex;
 }
 .click_lassan{
     width: 105px;
     position: relative;
-    bottom: 3px;
 }
 .click_to_dance{
     width: 70px;
@@ -24,228 +33,107 @@
 .heading{
     font-family: cursive;
     font-size: 50px;
+    text-align: center;
     position: relative;
-    left: 480px;
-    bottom: 147px;
+    bottom: 40%;
+    width: 75%;
 }
-html,body{
-    overflow-x: hidden;
-}
-body{
-    height: 888px;
-}
+
 .sidebar{
-    background: #fcde8d;
-    width: 147px;
-    height: 747px;
-    position: relative;
-    top: 0px;
+    background: #FFAEEF;
     border-radius: 25px;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 99%;
+    margin-top: 7.2%;
+    position: fixed;
+}
+.sidebar div{
+    display: flex;
+    bottom: 3px;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
 }
 .shortcut_links{
-    position: relative;
-    top: 15px;
-    left: 6px;
+    gap: 10%;
 }
-.home_icon{
-    position: relative;
-    left: 30px;
-    width: 75px;
-}
-.home_text{
-    font-size: 134%;
-    position: relative;
-    bottom: 32px;
-    left: 38px;
-    font-family: cursive;
-}
-.fan_art{
-    position: relative;
-    left: 30px;
-    bottom: 44px;
-    width: 75px;
-}
-.fan_art_text{
-    font-size: 134%;
-    position: relative;
-    bottom: 68px;
-    left: 28px;
-    font-family: cursive;
-}
-.cartoon_art{
-    position: relative;
-    left: 30px;
-    bottom: 75px;
-    width: 75px;
-}
-.cartoon_text{
-    font-size: 134%;
-    position: relative;
-    bottom: 105px;
-    left: 28px;
-    font-family: cursive;
-}
+
 a:link{
     color: black;
 }
 a:visited{
     color: #45B5FF;
 }
-.edits{
-    position: relative;
-    left: 32px;
-    bottom: 117px;
-    width: 75px;
-}
-.edits_text{
-    font-size: 134%;
-    position: relative;
-    bottom: 147px;
-    left: 35px;
-    font-family: cursive;
-}
-.series{
-    position: relative;
-    left: 42px;
-    bottom: 154px;
-    width: 50px;
-}
-.series_text{
-    font-size: 134%;
-    position: relative;
-    bottom: 177px;
-    left: 34px;
-    font-family: cursive;
-}
-.links{
-    position: relative;
-    left: 36px;
-    bottom: 177px;
-    width: 64px;
-}
-.links_text{
-    font-size: 134%;
-    position: relative;
-    bottom: 201px;
-    left: 42px;
-    font-family: cursive;
+
+.sub-container1{
+    width: 100%;
+    display: flex;
 }
 .Lassan_Day_Wish{
-    position: relative;
-    bottom: 850px;
-    left: 158px;
-    text-align: left;
-    width: 68.4%;
-    border-radius: 25px;
+    width: 100%;
+    margin-top: 12.6%;
     background: #3EB1FF;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    font-size: 132%;
+    text-align: left;
+    line-height: 187%;
 }
 .wish_text{
-    position: relative;
-    left: 18px;
-    bottom: 3px;
-    font-size: 20px;
-    font-family: cursive;
+    margin-left: 0.8%;
+    width: 98.5%;
+}
+.Hindi_Wish{
+    background-color: #FFDC7B;
+    border-radius: 25px;
+    width: 100%;
+    font-size: 121%;
+    text-align: center;
+    margin-top: 0.7%;
 }
 
-.Hindi_Wish{
-    position: relative;
-    bottom: 880px;
-    left: 168px;
-    text-align: left;
-    width: 18%;
-    border-radius: 25px;
-    background: #FFDC7B;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-.Hindi_Wish_text{
-    position: relative;
-    left: 25px;
-    bottom: 3px;
-    font-size: 42px;
-    font-family: cursive;
-}
-.page{
-    background: #8CD5FC;
-    overflow-y: hidden;
-}
-.container{
-    position: relative;
-    left: 2px;
-    top: 102px;
-}
-.about_this_website{
-    position: relative;
-    bottom: 864px;
-    left: 157px;
-    border-radius: 25px;
-    font-size: 27px;
-    font-family: cursive;
-    width: 87.5%;
-    text-align: center;
-    background: #FFDC7B;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-.about_this_website p{
-    position: relative;
-    bottom: 0px;
+.about_website{
+    width: 100%;
+    display: flex;
 }
 .idea{
-    position: relative;
-    bottom: 923px;
-    left: 157px;
-    border-radius: 25px;
-    font-size: 20px;
-    font-family: cursive;
-    width: 70.1%;
     background: #FFAEEF;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    border-radius: 25px;
+    font-size: 128%;
+    margin-top: 0.7%;
     text-align: left;
+    line-height: 187%;
 }
 .idea_text{
-    position: relative;
-    left: 11px;
+    margin-left: 0.8%;
+    width: 99.8%;
+}
+.Lassans_Love_You{
+    width: 15%;
+    font-size: 154%;
+    background-color: #3EB1FF;
+    border-radius: 25px;
+    margin-top: 0.7%;
+    margin-left: 0.6%;
 }
 
-.Lassans_Love_You{
-    position: relative;
-    bottom: 849px;
-    left: 171px;
-    border-radius: 25px;
-    font-family: cursive;
-    width: 17.1%;
-    height: 280px;
-    background: #3EB1FF;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-.love_text{
-    position: relative;
-    bottom: 5px;
-    font-size: 25.6px;
-}
-.emojis_in_text{
-    width: 200px;
-    position: relative;
-    bottom: 40px;
-}
 .mobile{
     display: none;
 }
-@media only screen and (max-width: 576px){
-    *{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    body{
-        height: 616px;
-    }
-    .container{
-        position: relative;
-        bottom: 132px;
-    }
+
+@media only screen and (max-width: 161px){
     .header{
+        width: 92%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 100%;
+        transform: translateY(24%);
+    }
+    .click_lassan{
         display: none;
     }
     .sidebar{
@@ -254,50 +142,905 @@ a:visited{
     .Lassan_Day_Wish{
         display: none;
     }
-    .Hindi_Wish{
+    .info_heading{
         display: none;
     }
     .about_website{
         display: none;
     }
-    .Lassans_Love_You{
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+    .mobile_header{
+        display: none;
+    }
+    .mobile_info{
+        display: none;
+    }
+    .alternate_img{
+        width: 100%;
+        transform: translateY(-57%);
+        border-radius: 25px;
+    }
+    .alternate_img2{
+        display: none;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(143%);
+    }
+    .Hindi_Wish p{
+        font-size: 88%;
+    }
+}
+@media only screen and (min-width: 161px) and (max-width: 176px){
+    .header{
+        width: 92%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 100%;
+        transform: translateY(55%);
+    }
+    .click_lassan{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .info_heading{
+        display: none;
+    }
+    .about_website{
         display: none;
     }
     .mobile{
         display: block;
-        position: relative;
-        bottom: 132px;
+        width: 100%;
     }
     .mobile_header{
-        font-size: 33px;
-        background-color: #FFDC7B;
-        border-radius: 25px;
-        width: 99%;
-        position: relative;
-        bottom: 0px;
-    }
-    .mobile_heading{
-        position: relative;
-        left: 33px;
+        display: none;
     }
     .mobile_info{
-        display: block;
-        border-radius: 25px;
-        font-size: 22px;
-        background-color: #FB8BE5;
-        width: 99%;
-        position: relative;
-        bottom: 22px;
-    }
-    .mobile_info_text{
-        position: relative;
-        left: 22px;
-        width: 88%;
+        display: none;
     }
     .alternate_img{
-        width: 380px;
-        position: relative;
-        bottom: 11px;
+        width: 100%;
+        transform: translateY(-57%);
         border-radius: 25px;
+    }
+    .alternate_img2{
+        display: none;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(143%);
+    }
+    .Hindi_Wish p{
+        font-size: 88%;
+    }
+}
+@media only screen and (min-width: 176px) and (max-width: 195px){
+    .header{
+        width: 92%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 100%;
+        transform: translateY(55%);
+    }
+    .click_lassan{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .info_heading{
+        display: none;
+    }
+    .about_website{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+    .mobile_header{
+        display: none;
+    }
+    .mobile_info{
+        display: none;
+    }
+    .alternate_img{
+        width: 100%;
+        transform: translateY(-33%);
+        border-radius: 25px;
+    }
+    .alternate_img2{
+        display: none;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(187%);
+    }
+    .Hindi_Wish p{
+        font-size: 88%;
+    }
+}
+@media only screen and (min-width: 195px) and (max-width: 210px){
+    .header{
+        width: 92%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 100%;
+        transform: translateY(55%);
+    }
+    .click_lassan{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .info_heading{
+        display: none;
+    }
+    .about_website{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile_header{
+        display: none;
+    }
+    .mobile_info{
+        display: none;
+    }
+    .alternate_img{
+        width: 100%;
+        transform: translateY(-45%);
+        border-radius: 25px;
+    }
+    .alternate_img2{
+        display: none;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(161%);
+    }
+}
+
+@media only screen and (min-width: 210px) and (max-width: 221px){
+    .header{
+        width: 92%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 100%;
+        transform: translateY(60%);
+    }
+    .click_lassan{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .info_heading{
+        display: none;
+    }
+    .about_website{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile_header{
+        display: none;
+    }
+    .mobile_info{
+        display: none;
+    }
+    .alternate_img{
+        width: 100%;
+        transform: translateY(-43%);
+        border-radius: 25px;
+    }
+    .alternate_img2{
+        display: none;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(166%);
+    }
+}
+
+@media only screen and (min-width: 210px) and (max-width: 232px){
+    .header{
+        width: 92%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 100%;
+        transform: translateY(60%);
+    }
+    .click_lassan{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .info_heading{
+        display: none;
+    }
+    .about_website{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile_header{
+        display: none;
+    }
+    .mobile_info{
+        display: none;
+    }
+    .alternate_img{
+        width: 100%;
+        transform: translateY(-40%);
+        border-radius: 25px;
+    }
+    .alternate_img2{
+        display: none;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(174%);
+    }
+}
+
+@media only screen and (min-width: 232px) and (max-width: 243px){
+    .header{
+        width: 92%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 100%;
+        transform: translateY(60%);
+    }
+    .click_lassan{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .info_heading{
+        display: none;
+    }
+    .about_website{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile_header{
+        display: none;
+    }
+    .mobile_info{
+        display: none;
+    }
+    .alternate_img{
+        width: 100%;
+        transform: translateY(-39%);
+        border-radius: 25px;
+    }
+    .alternate_img2{
+        display: none;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(178%);
+    }
+}
+
+@media only screen and (min-width: 243px) and (max-width: 254px){
+    .header{
+        width: 92%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 96%;
+        transform: translateY(60%);
+    }
+    .click_lassan{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .info_heading{
+        display: none;
+    }
+    .about_website{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile_header{
+        display: none;
+    }
+    .mobile_info{
+        display: none;
+    }
+    .alternate_img{
+        width: 100%;
+        transform: translateY(-36%);
+        border-radius: 25px;
+    }
+    .alternate_img2{
+        display: none;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(187%);
+    }
+}
+
+@media only screen and (min-width: 254px) and (max-width: 265px){
+    .header{
+        width: 95%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 88%;
+        transform: translateY(60%);
+    }
+    .click_lassan{
+        display: none;
+    }
+    .sidebar{
+        width: 95%;
+        margin-top: 41%;
+    }
+    .shortcut_links{
+        gap: 2.5%;
+    }
+    .shortcut_links p{
+        font-size: 44%;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .info_heading{
+        display: none;
+    }
+    .about_website{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile_header{
+        display: none;
+    }
+    .mobile_info{
+        display: none;
+    }
+    .alternate_img{
+        width: 100%;
+        transform: translateY(6.6%);
+        border-radius: 25px;
+    }
+    .alternate_img2{
+        display: none;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(345%);
+        background-color: #FFAEEF;
+        font-size: 165%;
+    }
+}
+
+@media only screen and (min-width: 265px) and (max-width: 277px){
+    .header{
+        width: 95%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 77%;
+        transform: translateY(60%);
+    }
+    .click_lassan{
+        display: none;
+    }
+    .sidebar{
+        width: 95%;
+        margin-top: 39.6%;
+    }
+    .shortcut_links{
+        gap: 2.5%;
+    }
+    .shortcut_links p{
+        font-size: 44%;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .info_heading{
+        display: none;
+    }
+    .about_website{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile_header{
+        display: none;
+    }
+    .mobile_info{
+        display: none;
+    }
+    .alternate_img{
+        display: none;
+    }
+    .alternate_img2{
+        width: 100%;
+        transform: translateY(-6%);
+        border-radius: 25px;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(255%);
+        background-color: #FFAEEF;
+        font-size: 165%;
+    }
+    .Hindi_Wish p{
+        width: 88%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (min-width: 277px) and (max-width: 287px){
+    .header{
+        width: 95%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 77%;
+        transform: translateY(60%);
+    }
+    .click_lassan{
+        display: none;
+    }
+    .sidebar{
+        width: 95%;
+        margin-top: 39.6%;
+    }
+    .shortcut_links{
+        gap: 2.5%;
+    }
+    .shortcut_links p{
+        font-size: 44%;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .info_heading{
+        display: none;
+    }
+    .about_website{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile_header{
+        display: none;
+    }
+    .mobile_info{
+        display: none;
+    }
+    .alternate_img{
+        display: none;
+    }
+    .alternate_img2{
+        width: 100%;
+        transform: translateY(-5%);
+        border-radius: 25px;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(258%);
+        background-color: #FFAEEF;
+        font-size: 165%;
+    }
+    .Hindi_Wish p{
+        width: 77%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 287px) and (max-width: 298px){
+    .header{
+        width: 95%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 77%;
+        transform: translateY(60%);
+    }
+    .click_lassan{
+        display: none;
+    }
+    .sidebar{
+        width: 95%;
+        margin-top: 36%;
+    }
+    .shortcut_links{
+        gap: 2.5%;
+    }
+    .shortcut_links p{
+        font-size: 44%;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .info_heading{
+        display: none;
+    }
+    .about_website{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile_header{
+        display: none;
+    }
+    .mobile_info{
+        display: none;
+    }
+    .alternate_img{
+        display: none;
+    }
+    .alternate_img2{
+        width: 100%;
+        transform: translateY(-7%);
+        border-radius: 25px;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(265%);
+        background-color: #FFAEEF;
+        font-size: 165%;
+    }
+    .Hindi_Wish p{
+        width: 77%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 298px) and (max-width: 309px){
+    .header{
+        width: 95%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 99%;
+        transform: translateY(77%);
+    }
+    .click_lassan{
+        display: none;
+    }
+    .sidebar{
+        width: 95%;
+        margin-top: 35%;
+    }
+    .shortcut_links{
+        gap: 2.5%;
+    }
+    .shortcut_links p{
+        font-size: 44%;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .info_heading{
+        display: none;
+    }
+    .about_website{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile_header{
+        display: none;
+    }
+    .mobile_info{
+        display: none;
+    }
+    .alternate_img{
+        display: none;
+    }
+    .alternate_img2{
+        width: 100%;
+        transform: translateY(-6%);
+        border-radius: 25px;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(272%);
+        background-color: #FFAEEF;
+        font-size: 165%;
+    }
+    .Hindi_Wish p{
+        width: 77%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 309px) and (max-width: 313px){
+    .header{
+        width: 95%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 99%;
+        transform: translateY(77%);
+    }
+    .click_lassan{
+        display: none;
+    }
+    .sidebar{
+        width: 95%;
+        margin-top: 34%;
+    }
+    .shortcut_links{
+        gap: 2.5%;
+    }
+    .shortcut_links p{
+        font-size: 44%;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .info_heading{
+        display: none;
+    }
+    .about_website{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile_header{
+        display: none;
+    }
+    .mobile_info{
+        display: none;
+    }
+    .alternate_img{
+        display: none;
+    }
+    .alternate_img2{
+        width: 100%;
+        transform: translateY(-6%);
+        border-radius: 25px;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(275%);
+        background-color: #FFAEEF;
+        font-size: 165%;
+    }
+    .Hindi_Wish p{
+        width: 77%;
+        margin-left: 11%;
+    }
+}
+
+@media only screen and (min-width: 313px) and (max-width: 334px){
+    .header{
+        width: 95%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 99%;
+        transform: translateY(77%);
+    }
+    .click_lassan{
+        display: none;
+    }
+    .sidebar{
+        width: 95%;
+        margin-top: 33%;
+    }
+    .shortcut_links{
+        gap: 4.4%;
+    }
+    .shortcut_links p{
+        font-size: 44%;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .info_heading{
+        display: none;
+    }
+    .about_website{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile_header{
+        display: none;
+    }
+    .mobile_info{
+        display: none;
+    }
+    .alternate_img{
+        display: none;
+    }
+    .alternate_img2{
+        width: 100%;
+        transform: translateY(6%);
+        border-radius: 25px;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(367%);
+        background-color: #FFAEEF;
+        font-size: 165%;
+    }
+    .Hindi_Wish p{
+        width: 77%;
+        margin-left: 11%;
+    }
+}
+
+@media only screen and (min-width: 334px) and (max-width: 352px){
+    .header{
+        width: 95%;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center;
+    }
+    .heading{
+        font-size: 132%;
+        text-align: center;
+        width: 99%;
+        transform: translateY(77%);
+    }
+    .click_lassan{
+        display: none;
+    }
+    .sidebar{
+        width: 95%;
+        margin-top: 30.5%;
+    }
+    .shortcut_links{
+        gap: 4.4%;
+    }
+    .shortcut_links p{
+        font-size: 44%;
+    }
+    .Lassan_Day_Wish{
+        display: none;
+    }
+    .info_heading{
+        display: none;
+    }
+    .about_website{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile_header{
+        display: none;
+    }
+    .mobile_info{
+        display: none;
+    }
+    .alternate_img{
+        display: none;
+    }
+    .alternate_img2{
+        width: 100%;
+        transform: translateY(4%);
+        border-radius: 25px;
+    }
+    .Hindi_Wish{
+        width: 100%;
+        transform: translateY(374%);
+        background-color: #FFAEEF;
+        font-size: 165%;
+    }
+    .Hindi_Wish p{
+        width: 77%;
+        margin-left: 11%;
     }
 }

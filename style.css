@@ -154,8 +154,9 @@ a:visited{
     .about_website{
         display: none;
     }
-    .idea_text{
+    .idea{
         text-align: center;
+        transform: translateY(88%);
     }
     .Hindi_Wish{
         width: 100%;
@@ -166,6 +167,5 @@ a:visited{
     .Hindi_Wish p{
         width: 77%;
         margin-left: 11%;
-        transform: translateY(77%);
     }
 }

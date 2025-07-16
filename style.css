@@ -154,22 +154,8 @@ a:visited{
     .about_website{
         display: none;
     }
-    .mobile{
-        display: block;
-    }
-    .mobile_header{
-        display: none;
-    }
-    .mobile_info{
-        display: none;
-    }
-    .alternate_img{
-        display: none;
-    }
-    .alternate_img2{
-        width: 100%;
-        transform: translateY(4%);
-        border-radius: 25px;
+    .idea_text{
+        text-align: center;
     }
     .Hindi_Wish{
         width: 100%;

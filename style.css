@@ -166,5 +166,6 @@ a:visited{
     .Hindi_Wish p{
         width: 77%;
         margin-left: 11%;
+        transform: translateY(77%);
     }
 }
